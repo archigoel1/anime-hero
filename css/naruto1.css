@@ -1,0 +1,85 @@
+body{
+	margin:0;
+	line-height: 30px;
+	
+}
+
+/*-----------HEADER CSS---------------------------*/
+header{
+	background-color: orange;
+	text-align: center;
+	margin: 0;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	
+}
+
+
+header img{
+	width: 600px;
+    border-radius: 50%;
+    padding-top: 20px;
+	padding-bottom: 20px;
+}
+	
+/*-----------Main body CSS---------------------------*/
+
+main{
+	text-align: left;
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #d7f285;
+	padding: 0px 20px 20px;
+}
+
+
+main h2{
+	color: red;
+	font-family: 'Coda Caption', arial;
+	text-align: left;
+	font-size: 40px;
+	margin: 0px;
+	padding-top: 20px;
+}
+
+main p,ul, ol{
+	font-family: 'Noto Sans SC', san-serif ;
+
+}
+
+main a{
+	color: brown;
+}
+a:hover{
+	color: violet;
+	background-color: transparent;
+}
+
+main ul{
+	margin-top: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+p.caption{
+	color: #999999;
+	margin-top: 0px;
+	font-style: italic;
+}
+
+footer{
+	font-family: 'Noto Sans SC', san-serif ;
+	background-color: orange;
+
+}
+footer p{
+	
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white;
+	font-size: 25px;
+	margin: 0px;
+}
